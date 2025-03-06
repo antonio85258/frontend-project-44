@@ -1,11 +1,19 @@
 {
-  "name": "frontend-project-44-1",
+  "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/antonio85258/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/antonio85258/frontend-project-44/actions)",
-  "main": "index.js",
+  "description": "[![Actions Status](https://github.com/awensq/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/awensq/frontend-project-44/actions)",
+  "main": "bin/brain-games.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "type": "module",
+  "author": "Dmitry Pshedromirskiy",
+  "license": "ISC",
+  "bin": {
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
